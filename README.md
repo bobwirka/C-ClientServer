@@ -15,6 +15,10 @@ Both libraries were cloned from github. Just copied mongoose.[c,h] to the projec
 Note that jansson was converted from C to C++ to provide a "simplified" API. The conversion was
 nothing more than a small modification to jansson.h and the inclusion of the new jansson.hpp.
 
+After configuring and building the jansson library, the jansson_config.h, and jansson_private_config.h
+files were copied to the /src folder. All the 'c' and 'h' files were then copied to the /Jansson folder
+in the project.
+
 The C files in the jansson library were renamed '.cpp', and the new header files (jansson.hpp and
 jansson_private.h) replaced any other jansson header file references.
 
