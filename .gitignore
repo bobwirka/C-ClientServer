@@ -1,0 +1,55 @@
+# Ignored folders.
+/**/Archive/
+/**/RemoteSystemsTempFiles/
+.svn/
+/**/eraseme/
+/**/eraseme
+/**/Debug/
+/**/Release/
+/**/chn_data.xml
+/**/.idea
+
+# Misc temp folders.
+Releases
+
+# Tar & zip files (but not symlinks or metadata).
+*.tar.gz
+*.tgz
+*.zip
+
+# Eclipse data.
+.settings
+.metadata
+
+# Eclipse (or other) temporary projects
+Z-*
+
+# Sedona compiled files.
+*.sab
+*.scode
+*.stage
+Sedona/kits/
+Sedona/manifests/
+/**/LibSedona/src/
+
+# BAScontrol compiled artifacts.
+*.hex
+*.lst
+*.map
+*.o
+*.elf
+*.bin
+
+# Prerequisites
+*.d
+
+# Libraries (but not the microhttpd library)
+*.lib
+*.a
+
+# Generated log files
+/**/*.log*
+
+# Items we need to keep.
+!EclipseWorkspaceMetadata.tgz
+

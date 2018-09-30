@@ -1,0 +1,7 @@
+Needed to build Jansson in order to produce header files:
+	jansson_config.h
+	jansson_private_config.h
+	
+Just copied them to the 'src' folder.
+	
+Then needed to add HAVE_CONFIG_H as project #defines for all builds.

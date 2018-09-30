@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>NodeJS Server Example</title>
+
+	<!-- HUGELY IMPORTANT -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--W3 CSS stylesheet-->
+	<link rel="stylesheet" href="w3.css">
+
+	<!--JavaScript libraries-->
+	<script src="jquery.min.js"></script>
+	<script src="knockout-latest.js"></script>
+
+	<!--Custom JavaScript-->
+	<script src="index.js"></script>
+
+</head>
+
+<!--Entire screen-->
+<body class="w3-container w3-row w3-large">
+
+	<!--spacer; hidden on small screens-->
+	<div class="w3-col l5 m4 w3-hide-small" style="height:1px;"></div>
+
+	<!--main column-->
+	<div class="w3-col l2 m4 s12" style="margin:auto">
+
+		<!--Spacer at top-->
+		<div style="height: 20px;"></div>
+
+		<!--Arguments-->
+		<span>Value #1</span>
+		<input type="text" class="w3-center w3-margin-bottom" data-bind="value: value1" style="width:100%;" value="0">
+
+		<span>Value #2</span>
+		<input type="text" class="w3-center w3-margin-bottom" data-bind="value: value2" style="width:100%;" value="0">
+
+		<span>Value #3</span>
+		<input type="text" class="w3-center w3-margin-bottom" data-bind="value: value3" style="width:100%;" value="0">
+
+		<!--Calculated output-->
+		<span>Sum</span>
+		<input type="text" class="w3-center w3-margin-bottom" data-bind="value: result" style="width:100%;" value="0" disabled>
+
+		<!--Calculate button-->
+		<input type="button" class="w3-center" data-bind="click:onClick" style="width:100%;" value="Calculate">
+
+	</div>
+
+</body>
+
+</html>
